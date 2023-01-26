@@ -1,0 +1,106 @@
+
+
+
+:root {
+    background-image: url('cover18.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+*{
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    
+}
+
+h1{
+    font-size: 2.4rem;
+    color: #56a5ab;
+    margin-bottom: 5rem;
+
+}
+
+
+h2{
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    
+}
+
+h3{
+    font-size: 2.8rem;
+ 
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+/* this makes you edit any child under the container  */
+.container > * {
+    width: 100%;
+
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.justify-center{
+    justify-content: center;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+/* buttons */
+.btn{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #56a5ab;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #56a5ab;
+    background-color: #fff;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    box-shadow: 0 0.4rem 1.9rem 0 #56a5ab 0.5;
+    background-color: #333;
+    color: #fff;
+
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
