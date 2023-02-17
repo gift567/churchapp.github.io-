@@ -2,9 +2,7 @@
 
 
 :root {
-    background-image: url('cover18.jpg');
-    background-size: cover;
-    background-position: center;
+   
 }
 
 *{
@@ -17,7 +15,7 @@
 }
 
 h1{
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     color: #56a5ab;
     margin-bottom: 5rem;
 
@@ -25,9 +23,9 @@ h1{
 
 
 h2{
-    font-size: 4.2rem;
-    font-weight: 700;
-    margin-bottom: 4rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
     
 }
 
@@ -44,6 +42,9 @@ h3{
     align-items: center;
     max-width: 80rem;
     margin: 0 auto;
+    background-image: url('cover18.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 /* this makes you edit any child under the container  */
