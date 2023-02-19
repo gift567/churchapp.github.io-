@@ -30,8 +30,8 @@
 
 .container {
   margin-top: 10px;
-  width: 370px;
-  height: 100vh;
+  width: 270px;
+  height: 70vh;
   perspective: 800px;
   display: flex;
   justify-content: center;
