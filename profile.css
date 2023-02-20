@@ -99,8 +99,12 @@ body{
     margin-top: 10px;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 
 
+}
+.card-content a{
+    text-decoration: none;
 }
 
 .card-btn:hover,
